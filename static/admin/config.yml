@@ -15,7 +15,10 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
-      - label: "Image"
-        default: "/assets/Brakspear-s-01.jpg"
-        name: "thumbnail"
-        widget: "image"
+      - label: "Featured Image"
+          name: "thumbnail"
+          widget: "image"
+          default: "/uploads/Brakspear-s-01.jpg"
+          media_library:
+            config:
+              multiple: true

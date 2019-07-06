@@ -16,9 +16,9 @@ collections:
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
       - label: "Featured Image"
-          name: "thumbnail"
-          widget: "image"
-          default: "/uploads/Brakspear-s-01.jpg"
-          media_library:
-            config:
-              multiple: true
+        name: "thumbnail"
+        widget: "image"
+        default: "/uploads/Brakspear-s-01.jpg"
+        media_library:
+          config:
+            multiple: true
